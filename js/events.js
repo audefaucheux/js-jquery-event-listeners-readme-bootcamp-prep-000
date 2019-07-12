@@ -7,7 +7,7 @@ function getIt() {
 
 function frameIt(){
   $('img').on('load', function() {
-    return img.classList.add('tasty')
+    return img.addClassName('tasty')
   });
 }
 
